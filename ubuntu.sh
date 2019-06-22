@@ -19,7 +19,7 @@ if [ "$first" != 1 ];then
             wget http://cdimage.ubuntu.com/ubuntu-base/releases/19.04/release/ubuntu-base-19.04-base-i386.tar.gz -O ubuntu.tar.gz
         elif [ "$(dpkg --print-architecture)" = "amd64" ];then
             wget http://cdimage.ubuntu.com/ubuntu-base/releases/19.04/release/ubuntu-base-19.04-base-amd64.tar.gz -O ubuntu.tar.gz
-        elif [ "$(dpkg --print-architecture)" = "i686" ];then
+        elif [ "$(dpkg --print-architecture)" = "musl-linux-i386" ];then
             wget http://cdimage.ubuntu.com/ubuntu-base/releases/19.04/release/ubuntu-base-19.04-base-i386.tar.gz -O ubuntu.tar.gz
         elif [ "$(dpkg --print-architecture)" = "i386" ];then
             wget http://cdimage.ubuntu.com/ubuntu-base/releases/19.04/release/ubuntu-base-19.04-base-i386.tar.gz -O ubuntu.tar.gz
