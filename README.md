@@ -11,4 +11,5 @@
 7. download the required files: `wget https://github.com/MFDGaming/Ubuntu-In-Ish/raw/master/ubuntu.sh && wget https://github.com/MFDGaming/Ubuntu-In-Ish/raw/master/start.sh`
 8. give execution perm: `chmod +x *`
 9. start the installation: `./ubuntu.sh`
-10. start ubuntu: `./start.sh`
+10. fix apt config: `wget `
+12. start ubuntu: `./start.sh`
