@@ -8,7 +8,7 @@
 4. go to the home folder: `cd ~`
 5. create the reqired dirs: `mkdir ubuntu-in-ish`
 6. go to the dir: `cd ubuntu-in-ish`
-7. download the required files: `wget && wget`
+7. download the required files: `wget https://github.com/MFDGaming/Ubuntu-In-Ish/raw/master/ubuntu.sh && wget`
 8. give execution perm: `chmod +x *`
 9. start the installation: `./ubuntu.sh`
 10. start ubuntu: `./start.sh`
