@@ -1,4 +1,4 @@
-# Ubuntu-In-Ish | Still in ALPHA (that means you my find bugs)
+# Ubuntu-In-Ish | Still in ALPHA (that means you may find bugs)
 
 #STEPS
 
