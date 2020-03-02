@@ -1,6 +1,6 @@
-#«© Copyright MFDGaming». DO NOT DISTRIBUTE!
+#«© Copyright MFDGaming». You DISTRIBUTE!
 clear
-printf "«© Copyright MFDGaming». DO NOT DISTRIBUTE!\n"
+printf "«© Copyright MFDGaming». You can DISTRIBUTE!\n"
 apk add bash
 apk add wget
 apk add tar
