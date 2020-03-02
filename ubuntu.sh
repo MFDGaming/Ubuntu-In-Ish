@@ -1,4 +1,4 @@
-#«© Copyright MFDGaming». You DISTRIBUTE!
+#«© Copyright MFDGaming». You can DISTRIBUTE!
 clear
 printf "«© Copyright MFDGaming». You can DISTRIBUTE!\n"
 apk add bash
