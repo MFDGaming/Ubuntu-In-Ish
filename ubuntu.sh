@@ -62,7 +62,7 @@ printf "Creating the start script, please wait...\n"
 cat > $bin <<- EOM
 #!/bin/bash
 cd \$(dirname \$0)
-mount --bind /proc ubuntu-fs/proc/
+mount -t proc none ubuntu-fs/proc/
 mount --bind /sys ubuntu-fs/sys/
 mount --bind /dev ubuntu-fs/dev/
 chroot ubuntu-fs/ /bin/bash
