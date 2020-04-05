@@ -1,6 +1,5 @@
-#«© Copyright MFDGaming». You can DISTRIBUTE!
 clear
-printf "«© Copyright MFDGaming». You can DISTRIBUTE!\n"
+printf "This Project is distributed under the Lisence GPLv3 by MFDGaming\n"
 apk add bash
 apk add wget
 apk add tar
@@ -63,7 +62,7 @@ cat > $bin <<- EOM
 #!/bin/bash
 cd \$(dirname \$0)
 mount -t proc none ubuntu-fs/proc
-mount --bind /sys ubuntu-fs/sys
+ln /sys ubuntu-fs/sys
 mount -o bind /dev ubuntu-fs/dev
 chroot ubuntu-fs/ /bin/bash
 EOM
