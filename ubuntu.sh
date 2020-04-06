@@ -62,7 +62,7 @@ cat > $bin <<- EOM
 #!/bin/bash
 cd \$(dirname \$0)
 mount -t proc none ubuntu-fs/proc
-ln /sys ubuntu-fs/sys
+ln -s /sys ubuntu-fs/sys
 mount -o bind /dev ubuntu-fs/dev
 chroot ubuntu-fs/ /bin/bash
 EOM
