@@ -62,6 +62,7 @@ cat > $bin <<- EOM
 #!/bin/bash
 cd \$(dirname \$0)
 rm -rf ubuntu-fs/sys
+rm -rf ubuntu-fs/dev
 mount -t proc none ubuntu-fs/proc
 ln -s /sys ubuntu-fs/sys
 ln -s /dev ubuntu-fs/dev
