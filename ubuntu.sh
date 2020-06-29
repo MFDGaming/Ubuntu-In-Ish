@@ -64,7 +64,7 @@ cd \$(dirname \$0)
 rm -rf ubuntu-fs/sys
 mount -t proc none ubuntu-fs/proc
 ln -s /sys ubuntu-fs/sys
-mount -o bind /dev ubuntu-fs/dev
+ln -s /dev ubuntu-fs/dev
 chroot ubuntu-fs/ /bin/bash
 EOM
 printf "The start script has been successfully created!\n"
