@@ -88,7 +88,7 @@ printf "Do you want to install ubuntu-in-termux? [Y/n] "
 read CMDI
 if [ "$CMDI" = "y" ];then
 INSTP1
-elif [ "CMDI" = "Y" ];then 
+elif [ "$CMDI" = "Y" ];then 
 INSTP1 
 else 
 printf "Installation aborted.\n" 
