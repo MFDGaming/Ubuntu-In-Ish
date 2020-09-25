@@ -23,7 +23,7 @@ else
 printf "Reinstallation aborted.\n"
 exit
 fi
-if [ -z "$(command -v wget)" ];then
+elif [ -z "$(command -v wget)" ];then
 printf "Please install wget.\n"
 exit
 fi
