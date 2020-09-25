@@ -5,7 +5,7 @@ apk add tar
 
 #!/usr/bin/env sh
 
-UBUNTU_VERSION=19.10
+UBUNTU_VERSION=18.04
 DIR=ubuntu-fs
 ARCHITECTURE=i386
 
@@ -23,10 +23,7 @@ else
 printf "Reinstallation aborted.\n"
 exit
 fi
-elif [ -z "$(command -v bash)" ];then
-printf "Please install bash.\n"
-exit
-elif [ -z "$(command -v wget)" ];then
+if [ -z "$(command -v wget)" ];then
 printf "Please install wget.\n"
 exit
 fi
