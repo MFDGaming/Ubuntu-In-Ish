@@ -4,11 +4,10 @@
 
 1. update ish: `apk update`
 2. install wget: `apk add wget`
-3. install bash: `apk add bash`
-4. go to the home folder: `cd ~`
-5. create the reqired dirs: `mkdir ubuntu-in-ish`
-6. go to the dir: `cd ubuntu-in-ish`
-7. download the required files: `wget https://github.com/MFDGaming/Ubuntu-In-Ish/raw/master/ubuntu.sh`
-8. give execution perm: `chmod +x *`
-9. start the installation: `./ubuntu.sh -y`
-10. start ubuntu: `./startubuntu.sh`
+3. go to the home folder: `cd ~`
+4. create the reqired dirs: `mkdir ubuntu-in-ish`
+5. go to the dir: `cd ubuntu-in-ish`
+6. download the required files: `wget https://github.com/MFDGaming/Ubuntu-In-Ish/raw/master/ubuntu.sh`
+7. give execution perm: `chmod +x *`
+8. start the installation: `./ubuntu.sh -y`
+9. start ubuntu: `./startubuntu.sh`
