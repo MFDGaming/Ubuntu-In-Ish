@@ -4,7 +4,7 @@ apk add bash
 apk add wget
 apk add tar
 
-#!/bin/env sh
+#!/usr/bin/env sh
 
 UBUNTU_VERSION=19.10
 DIR=ubuntu-fs
