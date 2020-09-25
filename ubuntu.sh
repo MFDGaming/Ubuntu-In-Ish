@@ -53,7 +53,7 @@ mkdir -p ubuntu-binds
 bin=startubuntu.sh
 printf "Creating the start script, please wait...\n"
 cat > $bin <<- EOM
-#!/usr/env sh
+#!/usr/bin/env sh
 cd \$(dirname \$0)
 rm -rf ubuntu-fs/sys
 rm -rf ubuntu-fs/dev
