@@ -1,6 +1,5 @@
 clear
 printf "This Project is distributed under the Lisence GPLv3 by MFDGaming\n"
-apk add bash
 apk add wget
 apk add tar
 
