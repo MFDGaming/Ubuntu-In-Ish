@@ -3,7 +3,7 @@
 clear
 printf "This Project is distributed under the Lisence GPLv3 by MFDGaming\n"
 
-UBUNTU_VERSION=18.04
+UBUNTU_VERSION=18.04.5
 DIR=ubuntu-fs
 ARCHITECTURE=i386
 
